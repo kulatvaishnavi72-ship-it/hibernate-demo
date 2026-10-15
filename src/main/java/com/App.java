@@ -54,6 +54,7 @@ public class App
            session.persist(employee);
            transaction.commit();
            session.close();
+           System.out.println("session closed");
            
            
            
