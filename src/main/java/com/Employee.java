@@ -23,7 +23,7 @@ import lombok.Data;
 @Table(name = "Employee_value")
 @Data
 public class Employee {
-
+//@Id means primary
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private int id;
